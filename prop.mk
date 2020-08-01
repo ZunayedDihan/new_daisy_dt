@@ -267,3 +267,7 @@ persist.sys.wfd.virtual=0
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.com.google.ime.corner_key_r=35 \
 ro.com.google.ime.kb_pad_port_b=1
+
+# Enable QC2 bufferqueue block-pool
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.qc2.use.bqpool=1
