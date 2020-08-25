@@ -140,6 +140,14 @@ ro.lmk.use_minfree_levels=true \
 ro.lmk.log_stats=true \
 ro.lmk.use_psi=true
 
+# Graphics
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.sf.early_phase_offset_ns=11600000 \
+debug.sf.early_app_phase_offset_ns=11600000 \
+debug.sf.early_gl_phase_offset_ns=3000000 \
+debug.sf.early_gl_app_phase_offset_ns=15000000 \
+debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
