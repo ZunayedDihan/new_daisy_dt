@@ -28,12 +28,7 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 2280*1080
-
-# Adding Derp stuffs
-IS_PHONE := true
-TARGET_GAPPS_ARCH := arm64
-DERP_BUILDTYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
