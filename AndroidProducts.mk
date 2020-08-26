@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_daisy.mk
+    $(LOCAL_DIR)/bootleg_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_daisy-user \
-    derp_daisy-userdebug \
-    derp_daisy-eng
+    bootleg_daisy-user \
+    bootleg_daisy-userdebug \
+    bootleg_daisy-eng
