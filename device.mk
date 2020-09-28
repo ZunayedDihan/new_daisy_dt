@@ -213,11 +213,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
-# Spectrum
-PRODUCT_PACKAGES += \
-   init.spectrum.rc \
-   init.spectrum.sh
-
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
@@ -373,15 +368,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     move_time_data.sh \
     move_wifi_data.sh \
-    ueventd.qcom.rc \
-    init.gpuboost.rc \
-    init.gpuboost.sh \
-    init.cpuboost.rc \
-    init.cpuboost.sh \
-    init.parallax.rc \
-    init.parallax.sh \
-    init.camera.rc \
-    init.camera.sh
+    ueventd.qcom.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -513,11 +500,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# Doze
-PRODUCT_PACKAGES += \
-    CustomDoze
-
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
